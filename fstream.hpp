@@ -37,7 +37,7 @@ namespace madeargentum {
             bin_add_read = "a+b";
     }
 
-    const std::vector<const char*>
+    const std::vector<std::string>
         modes{ "w", "r", "a", "w+", "r+", "a+", "wb", "rb", "ab", "w+b", "r+b", "a+b" },
         support_def_write{ "w", "a", "w+", "r+", "a+" },
         support_def_read{ "r", "w+", "r+", "a+" },
